@@ -8,7 +8,6 @@ author:
   picture: '/assets/blog/authors/afif.jpg'
 ogImage:
   url: '/assets/blog/10.git/1.header.jpeg'
-tag: git
 ---
 
 <!-- ---

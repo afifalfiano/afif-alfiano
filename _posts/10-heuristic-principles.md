@@ -8,7 +8,6 @@ author:
   picture: '/assets/blog/authors/afif.jpg'
 ogImage:
   url: '/assets/blog/2.10-heuristic-principles/header.jpg'
-tag: ux
 ---
 
 <!-- ---
