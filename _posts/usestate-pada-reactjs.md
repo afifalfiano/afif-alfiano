@@ -110,7 +110,7 @@ Kemudian kita jalankan dulu aplikasi ini dengan menjalankan perintah
 npm run start
 ```
 
-<img src="/assets/blog/22.reactjs-state/2.index.png" alt="Index" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="../public/assets/blog/22.reactjs-state/2.index.png" alt="Index" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Tentu saja tidak ada yang spesial karena hanya seperti itu, tapi disini kita mempelajari konsep dari useState itu sendiri. Pada tamplan diatas kita belum mengubah state dan belum memberikan event apapun pada kedua button tersebut. 
 
@@ -149,7 +149,7 @@ export default Counter;
 
 Dengan menambahkan atribut onClick kemudian kita panggil arrow function onDecrementHandler dan onIncrementHandler maka kita sudah berhasil menambahkan event handler. Nah kita tidak perlu memanggil fungsi dengan eksekusi misalkan fungsi(), tidak perlu seperti itu. Cukup panggil nama fungsinya saja. Nah ketika kita tambahkan parameter event pada fungsi tersebut maka kita kan menerima hasil seperti ini
 
-<img src="/assets/blog/22.reactjs-state/3.console.png" alt="Console-Event" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="../public/assets/blog/22.reactjs-state/3.console.png" alt="Console-Event" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Kemudian kita akan ubah funsi handler tersebut menjadi seperti ini.
 
@@ -190,13 +190,13 @@ Kemudian untuk fungsi onIncrementHandler langsung saja kita jalankan perintah se
 
 Maka hasilnya akan menjadi seperti ini ketika saya klik tombol tambah
 
-<img src="/assets/blog/22.reactjs-state/4.increment.png" alt="Increment" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="../public/assets/blog/22.reactjs-state/4.increment.png" alt="Increment" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Dan nilai count akan terus bertambah ketika klik tombol tambah. 
 
 Kemudian untuk tampilan ketika saya klik tombol kurang maka akan melakukan decrement seperti berikut ini
 
-<img src="/assets/blog/22.reactjs-state/1.header.png" alt="Decrement" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="../public/assets/blog/22.reactjs-state/1.header.png" alt="Decrement" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Jadi nilai itu akan terus berkurang sampai 0, ketika sudah 0 ya akan berhenti pada nilai tersebut karena tadi kita sudah memberikan kondisi yang mana hanya menjalankan aksi decrement ketika nilai count lebih dari 0.
 

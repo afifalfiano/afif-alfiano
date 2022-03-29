@@ -44,7 +44,7 @@ Saya sarankan teman-teman membaca artikel mengenai state dulu supaya lebih mudah
 
 Kemudian coba jalankan dulu dan pastikan tidak ada error. Nanti tampilannya seperti ini
 
-<img src="/assets/blog/24.reactjs-efek/1.review.png" alt="Review" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="../public/assets/blog/24.reactjs-efek/1.review.png" alt="Review" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Kemudian kita tambahkan code untuk komponen Counter menjadi seperti ini
 
@@ -88,7 +88,7 @@ export default Counter;
 
 Kita tambahkan state infoNumber dan setInfoNumber. Tujuan saya menambahkan kode diatas adalah supaya ketika nilai count dibagi habis 2 maka akan memunculkan Genap dan jika tidak maka akan memunculkan Ganjil. Seperti ini tampilan awalnya
 
-<img src="/assets/blog/24.reactjs-efek/2.first.png" alt="First" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="../public/assets/blog/24.reactjs-efek/2.first.png" alt="First" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Kemudian sekarang kita tambahkan lagi kode counter.js seperti ini
 
@@ -138,7 +138,7 @@ Kita menambahkan jika count dibagi habis 2 yang hasilnya sama dengan 0 maka kita
 
 Kemudian kita lihat lagi tampilannya dan ternyata muncul error seperti ini
 
-<img src="/assets/blog/24.reactjs-efek/3.error.png" alt="Error" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="../public/assets/blog/24.reactjs-efek/3.error.png" alt="Error" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Error diatas terjadi karena ketika pertama kali komponen Counter dirender maka komponen itu juga melakukan pengecekan kondisi tadi dan akan terjadi infinite looping yang akhirnya muncul pesan error diatas.
 
@@ -200,11 +200,11 @@ Perlu teman-teman ketahui juga bahwa useEffect ini untuk pertama kali berjalan s
 
 Maka tampilannya menjadi seperti ini ketika infoNumber bernilai Ganjil
 
-<img src="/assets/blog/24.reactjs-efek/4.useefek.png" alt="UseEffect" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="../public/assets/blog/24.reactjs-efek/4.useefek.png" alt="UseEffect" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Kemudian ketika infoNumber bernilai Genap
 
-<img src="/assets/blog/24.reactjs-efek/5.useefek-1.png" alt="UseEffect-1" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="../public/assets/blog/24.reactjs-efek/5.useefek-1.png" alt="UseEffect-1" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Teman-teman juga bisa menjalankan useEffect sekali saja ketika render komponen pertama kali. Caranya cukup kosongkan menjadi ```[]``` saja pada bagian dependensi useEffectnya.
 
@@ -215,7 +215,7 @@ useEffect(() => {some code},[]);
 
 Oh ya saya lupa mengganti judul dari project ini, harusnya bukan Belajar State tapi Belajar UseEffect.
 
-<img src="/assets/blog/24.reactjs-efek/6.finish.png" alt="Finish" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="../public/assets/blog/24.reactjs-efek/6.finish.png" alt="Finish" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Oke mungkin itu dulu ya teman-teman yang dapat saya sampaikan mengenai topik use effect ini dan semoga bermanfaat. Untuk kode lengkapnya ada disini yap https://github.com/afifalfiano/tutorial-reactjs/tree/learn/useeffect
 

@@ -108,7 +108,7 @@ Nah karena tadi pada komponen DaftarBelajar kita mengambil data props.data, maka
 
 Maka tampilannya seperti berikut ini.
 
-<img src="/assets/blog/23.reactjs-list/1.header.png" alt="Header" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="../public/assets/blog/23.reactjs-list/1.header.png" alt="Header" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Walaupun pada tampilan element atribut key tidak ada tapi sebenarnya direact sudah mengetahui kalau list itu sudah memiliki nilai unik.
 
@@ -137,7 +137,7 @@ Cukup hilangkan atribut key pada tag li.
 
 Maka tampilannya seperti ini.
 
-<img src="/assets/blog/23.reactjs-list/2.error.png" alt="Error" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="../public/assets/blog/23.reactjs-list/2.error.png" alt="Error" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Yap, kita disarankan untuk menggunakan atribut key pada list tersebut.
 

@@ -43,39 +43,39 @@ Kemudian kita inisiasi project reactjs dengan menjalankan perintah npx create-re
 npx create-react-js
 ```
 
-<img src="/assets/blog/18.reactjs/2.create-project.png" alt="Init" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="../public/assets/blog/18.reactjs/2.create-project.png" alt="Init" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Tunggu sampai proses inisiasi project tersebut selesai.
 
 Setelah selesai inisiasi project selanutnya kita buka project tersebut menggunakan IDE, bebas mau vscode, sublime, atom ataupun yang lain, yang penting senyamannya teman-teman.
 
-<img src="/assets/blog/18.reactjs/3.first-code.png" alt="First-Code" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="../public/assets/blog/18.reactjs/3.first-code.png" alt="First-Code" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Secara default strukur filenya seperti diatas.
 
 Kemudian kita coba untuk menjalankan aplikasi reactjs tersebut dilocal kita dengan menjalankan perintah npm run start
 
-<img src="/assets/blog/18.reactjs/4.run-apps.png" alt="Run-Apps" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="../public/assets/blog/18.reactjs/4.run-apps.png" alt="Run-Apps" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Kemudian kita buka menggunakan browser dengan mengetikan pada url localhost:3000. Yap react secara default menggunakan port 3000, tapi jika angular selalu menggunakan port 4200. Walaupun kedua framework ataupun library tersebut bisa custom port juga.
 
-<img src="/assets/blog/18.reactjs/5.default-view.png" alt="Default-Apps" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="../public/assets/blog/18.reactjs/5.default-view.png" alt="Default-Apps" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Jadi goal kita pada tutorial ini adalah membuat aplikasi simpel todolist dengan filter dan style yang lumayan bagus. Kurang lebih seperti ini goalnya.
 
-<img src="/assets/blog/18.reactjs/6.goal.png" alt="Goal-Apps" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="../public/assets/blog/18.reactjs/6.goal.png" alt="Goal-Apps" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Jadi kita bisa memilih filter berdasarkan status, kemudian ketika klik data listnya dia secara otomatis berubah statusnya dengan tahapan todo, in progress, completed. Kemudian kita bisa menambahkan dan mengedit todo yang kita buat. Setelah membuat aplikasi tersebut kita juga akan mendeploynya ke serverless https://vercel.com/. Jadi nanti temen-temen bisa langsung menggunakan secara live.
 
 Oke, langkah selanjutnya adalah dengan membuat file seperti ini terlebih dulu.
 
-<img src="/assets/blog/18.reactjs/7.file.png" alt="File" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="../public/assets/blog/18.reactjs/7.file.png" alt="File" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Buat folder baru dengan nama component kemudian tambahkan file UserInput(js,css), TodoList(js,css), dan FilterTodo(js,css).
 
 Selanjutnya kita akan mengubah untuk TodoList(js,css) terlebih dahulu.
 
-<img src="/assets/blog/18.reactjs/8.todolist.png" alt="Todolist" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="../public/assets/blog/18.reactjs/8.todolist.png" alt="Todolist" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Kita menggunakan komponen function bukan class. Jadi seperti biasa kita buat variabel function dengan parameter props untuk komunikasi data antar komponen parent dan child.
 Jangan lupa untuk import TodoList.css yang nanti akan kita buat.
@@ -90,13 +90,13 @@ Oke kita lanjutkan. Kemudian diluar kondisi status tadi kita return kembali deng
 
 Berikut ini untuk styling komponen TodoList
 
-<img src="/assets/blog/18.reactjs/9.todolist-css.png" alt="TodolistCSS" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="../public/assets/blog/18.reactjs/9.todolist-css.png" alt="TodolistCSS" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Teman-teman bisa meniru saja ataupun bisa membuat kreasi yang lebih menarik juga bisa.
 
 Selanjutnya kita akan menuju komponen UserInput. 
 
-<img src="/assets/blog/18.reactjs/10.user-input.png" alt="UserInput" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="../public/assets/blog/18.reactjs/10.user-input.png" alt="UserInput" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Pada komponen ini kita menggunakan beberapa fitur bawaan reactjs yaitu useState dan useEffect. Apa itu useState? useState adalah fitur dari reactjs yang memungkinkan kita untuk melisten data dan kita dapat merubah data atau state terakhir sesuai keinginan kita. Jadi pada useState terdiri dari [currentValue, setCurrentValue] nah ketika kita ingin mengubah currentValue cukup panggil setCurrentValue(data) maka otomatis currentValue akan terupdate tanpa harus reloading halaman.
 
@@ -116,21 +116,21 @@ Kemudian tinggal kita render UserInput tersebut seperti pada baris 35-49. Sediki
 
 Kemudian berikut ini untuk style UserInput.
 
-<img src="/assets/blog/18.reactjs/11.user-input-css.png" alt="UserInputCSS" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="../public/assets/blog/18.reactjs/11.user-input-css.png" alt="UserInputCSS" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Selanjutnya kita akan pindah ke komponen FilterTodo
 
-<img src="/assets/blog/18.reactjs/12.filter-todo.png" alt="FilterTodo" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="../public/assets/blog/18.reactjs/12.filter-todo.png" alt="FilterTodo" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Kalau untuk filter ini sedikit ringkas. Kita buat sebuah select lengkap dengan optionnya. Kemudian pada element select kita tambahkan atribut onChange yang mengacu ke fungsi handlerFilter. Pada handlerFilter kita mengirimkan nilai yang kita select ke parent komponen atau ke App.js, Nah selanjutnya terdapat value yang kita arahkan ke props.selected. Tujuannya adalah supaya antara yang terakhir kita select bisa sesuai dengan yang ada pada parent komponen yaitu App.js 
 
 Kemudian berikut ini untuk stylenya.
 
-<img src="/assets/blog/18.reactjs/13.filter-todo-css.png" alt="FilterTodoCSS" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="../public/assets/blog/18.reactjs/13.filter-todo-css.png" alt="FilterTodoCSS" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Selanjutnya kita masuk ke komponen utama yaitu App.js. Nah di App.js ini kita akan import komponen TodoList, UserInput dan FilterTodo. Seperti ini untuk lebih lengkapnya. Saya notice diawal kodenya cukup panjang, hehe
 
-<img src="/assets/blog/18.reactjs/14.app.png" alt="App" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="../public/assets/blog/18.reactjs/14.app.png" alt="App" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Kita impor terlebih dahulu untuk komponen TodoList, UserInput dan FilterTodo. Oiya, jangan lupa untuk import juga style App.css. Pertama kita buat const STATUS untuk mendefinisikan setiap statusnya untuk mengurangi atau meminimalisir Typo yang ada. Jadi nanti kita tinggal panggil saja objek tersebut.
 
@@ -154,39 +154,39 @@ Kemudian pada variabel fungsi filterHandler kita lakuakn setCurrentFilter dengan
 
 Kemudian berikut ini untuk styling App.js
 
-<img src="/assets/blog/18.reactjs/15.app-css.png" alt="AppCSS" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="../public/assets/blog/18.reactjs/15.app-css.png" alt="AppCSS" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Kemudian kita coba dilocal terlebih dahulu dan pastikan sudah aman tidak ada error. Setelah aman kita push terlebih dahulu project tersebut ke github kita.
 
-<img src="/assets/blog/18.reactjs/16.github.png" alt="Github" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="../public/assets/blog/18.reactjs/16.github.png" alt="Github" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Setelah sudah dipush ke repository kita, kita masuk ke vercel.com. Jika teman-temen belum memiliki akun bisa daftar dulu dan kemudian login. Seperti ini tampilan awal vercel ketika berhasil login.
 
-<img src="/assets/blog/18.reactjs/17.vercel.png" alt="Vercel" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="../public/assets/blog/18.reactjs/17.vercel.png" alt="Vercel" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Pastikan vercel akun kita sudah terhubung dengan akun github kita supaya lebih mudah melakukan intergrasi project. Tinggal kita klik new project
 
-<img src="/assets/blog/18.reactjs/18.import.png" alt="Import" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="../public/assets/blog/18.reactjs/18.import.png" alt="Import" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Kemudian tinggal kita klik import pada repository todolist-react (ini tergantung dari temen-temen memberikan nama repository ya).
 
-<img src="/assets/blog/18.reactjs/19.done.png" alt="Done" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="../public/assets/blog/18.reactjs/19.done.png" alt="Done" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Untuk bagian create team klik skip saja.
 
 Kemudian scroll kebawah dan pada bagian environtment tambahkan properti ini CI dengan nilainya false.
 
-<img src="/assets/blog/18.reactjs/20.process.png" alt="Process" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="../public/assets/blog/18.reactjs/20.process.png" alt="Process" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Karena saya sudah deploy ke vercel jadi saya berikan capturenya saja seperti gambar diatas. Nah kenapa CI kita false, karena kemarin saya sempet menemukan error terkait yarn dan dibeberapa forum disarankan untuk menonaktifkan continue integration(CI) pada environment. Setelah itu tinggal klik deploy saja dan tunggu sampai selesai.
 
 Setelah selesai nanti akan muncul tampilan seperti berikut ini
 
-<img src="/assets/blog/18.reactjs/21.deploy.png" alt="Deploy" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="../public/assets/blog/18.reactjs/21.deploy.png" alt="Deploy" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Klik visit untuk melihat hasil deployan aplikasi reactjs kita tadi.
 
-<img src="/assets/blog/18.reactjs/22.review.png" alt="Review" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="../public/assets/blog/18.reactjs/22.review.png" alt="Review" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Selamat, temen-temen sudah berhasil mendeploy aplikasi reactjs ke vercel.
 
