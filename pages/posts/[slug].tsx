@@ -11,6 +11,8 @@ import Head from 'next/head'
 import { CMS_NAME } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
 import PostType from '../../types/post'
+import Prism from 'prismjs'
+import { useEffect } from 'react'
 
 type Props = {
   post: PostType
@@ -19,7 +21,13 @@ type Props = {
 }
 
 const Post = ({ post, morePosts, preview }: Props) => {
+  useEffect(() => {
+    const highlight = async () => {
+      await Prism.highlightAll(); // <--- prepare Prism 
+    };
 
+    highlight();
+  }, [post]);
   const router = useRouter()
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />

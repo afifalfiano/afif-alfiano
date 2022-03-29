@@ -8,6 +8,7 @@ author:
   picture: '/assets/blog/authors/afif.jpg'
 ogImage:
   url: '/assets/blog/21.reactjs-props/1.header.png'
+tag: reactjs
 ---
 
 

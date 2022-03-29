@@ -8,6 +8,7 @@ author:
   picture: '/assets/blog/authors/afif.jpg'
 ogImage:
   url: '/assets/blog/19.reactjs-portal/1.header.png'
+tag: reactjs
 ---
 
 <!-- ---
@@ -58,6 +59,8 @@ const Portal = () => {
  
 export default Portal;
 ```
+
+
 
 Kemudian pada app.js saya gunakan seperti ini
 
