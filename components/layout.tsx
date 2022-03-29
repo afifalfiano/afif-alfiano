@@ -1,6 +1,11 @@
+import { useEffect } from 'react';
 import Alert from './alert'
 import Footer from './footer'
 import Meta from './meta'
+import Prism from 'prismjs'
+require('prismjs/components/prism-javascript')
+require('prismjs/components/prism-css')
+require('prismjs/components/prism-jsx')
 
 type Props = {
   preview?: boolean
@@ -8,6 +13,9 @@ type Props = {
 }
 
 const Layout = ({ preview, children }: Props) => {
+  useEffect(() => {
+    Prism.highlightAll();
+  }, []);
   return (
     <>
       <Meta />
