@@ -1,5 +1,5 @@
-import Post from '../../types/post'
-import CardPost from '../../components/own/CardPost';
+import Post from '../../../types/post'
+import CardPost from './CardPost';
 import Link from 'next/link';
 
 type Props = {

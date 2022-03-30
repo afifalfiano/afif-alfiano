@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { wordCount } from "../../utils/wordCount";
+import { wordCount } from "../../../utils/wordCount";
 
 
 const CardPost = ({ post }: any) => {

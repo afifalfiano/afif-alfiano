@@ -7,11 +7,11 @@ import { getAllPosts } from '../lib/api'
 import Head from 'next/head'
 import { CMS_NAME } from '../lib/constants'
 import Post from '../types/post'
-import About from '../components/own/About'
-import FeaturedPost from '../components/own/FeaturedPost'
-import Footer from '../components/own/Footer'
+import About from '../components/own/home/About'
+import FeaturedPost from '../components/own/home/FeaturedPost'
+import Footer from '../components/own/home/Footer'
 import { motion } from 'framer-motion'
-import Header from '../components/own/Header';
+import Header from '../components/own/home/Header';
 type Props = {
   allPosts: Post[]
 }
