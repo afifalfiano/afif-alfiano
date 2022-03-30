@@ -9,7 +9,6 @@ type Props = {
 const FeaturedPost  = ({allPosts}: Props) => {
 
     const newFeaturedPost = allPosts.slice(0,3);
-    console.log(newFeaturedPost, 'cek');
     const featuredPost = newFeaturedPost.map((post: Post) => {
         return (
             <CardPost key={post.slug} post={post}/>
