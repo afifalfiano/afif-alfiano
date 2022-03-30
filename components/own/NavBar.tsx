@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import styles from './NavBar.module.css';
 
 const headerVariant = {
@@ -17,6 +18,8 @@ const headerVariant = {
     }
 }
 const NavBar = () => {
+    const router = useRouter();
+
     return (
         <motion.header variants={headerVariant} initial="hidden" animate="visible"  className={` ${styles['header-nav']}`}>
             <div className='flex  items-center justify-start'>
@@ -24,13 +27,13 @@ const NavBar = () => {
             </div>
             <div className='flex items-center justify-start gap-x-10 text-3xl '>
             <Link href="/" passHref>
-                <a className="hover:border-b-4  hover:border-b-pink-500  hover:text-white text-gray-300">Home</a>
+                <a className={`hover:border-b-4  hover:border-b-pink-500  hover:text-white text-gray-300 ${router.pathname === '/' ? styles.active: ''}`}>Home</a>
             </Link>
             <Link href="/blogs">
-                <a className="hover:border-b-4  hover:border-b-pink-500  hover:text-white text-gray-300">Blogs</a>
+                <a className={`hover:border-b-4  hover:border-b-pink-500  hover:text-white text-gray-300 ${router.pathname === '/blogs' || router.pathname.match('/posts') ? styles.active: ''}`}>Blogs</a>
             </Link>
             <Link href="/talks">
-                <a className="hover:border-b-4  hover:border-b-pink-500 hover:text-white text-gray-300">Talks</a>
+                <a className={`hover:border-b-4  hover:border-b-pink-500 hover:text-white text-gray-300 ${router.pathname === '/talks' ? styles.active: ''}`}>Talks</a>
             </Link>
             </div>
         </motion.header>
