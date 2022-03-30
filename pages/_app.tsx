@@ -1,7 +1,12 @@
 import { AppProps } from 'next/app'
 import '../styles/index.css'
-import "prismjs/themes/prism-tomorrow.css";
-
+import Header from '../components/own/header';
+import Layout from '../components/own/Layout';
 export default function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return (
+  <Layout>
+    <Header />
+    <Component {...pageProps} />
+  </Layout>
+  )
 }
