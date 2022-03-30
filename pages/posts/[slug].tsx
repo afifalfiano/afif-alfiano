@@ -10,10 +10,7 @@ import Head from 'next/head'
 import { CMS_NAME } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
 import PostType from '../../types/post'
-import Header from '../../components/own/Header'
 import { motion } from 'framer-motion'
-// import Prism from 'prismjs'
-// import { useEffect } from 'react'
 
 type Props = {
   post: PostType
@@ -34,10 +31,9 @@ const Post = ({ post, morePosts, preview }: Props) => {
     return <ErrorPage statusCode={404} />
   }
   return (
-    <motion.div exit={{opacity:0}}>
+    <motion.div exit={{opacity: 0}} initial={{opacity: 0}} animate={{opacity: 1}} transition={{delay: .1, duration: 1, type: 'tween'}}>
     <Layout preview={preview}>
       <Container>
-        <Header />
         {router.isFallback ? (
           <PostTitle>Loading…</PostTitle>
         ) : (
