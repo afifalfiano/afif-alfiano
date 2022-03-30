@@ -8,6 +8,7 @@ author:
   picture: '/assets/blog/authors/afif.jpg'
 ogImage:
   url: '/assets/blog/25.angular-cypress/26.monitoring.png'
+wordCount: 1113
 ---
 
 <!-- ---

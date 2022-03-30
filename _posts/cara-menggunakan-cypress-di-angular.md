@@ -8,6 +8,8 @@ author:
   picture: '/assets/blog/authors/afif.jpg'
 ogImage:
   url: '/assets/blog/17.cypress/cover.png'
+wordCount: 1639
+
 ---
 
 <!-- ---

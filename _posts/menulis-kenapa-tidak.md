@@ -8,6 +8,8 @@ author:
   picture: '/assets/blog/authors/afif.jpg'
 ogImage:
   url: '/assets/blog/1.menulis-kenapa-tidak/header.jpg'
+wordCount: 566
+
 ---
 <!-- ---
 title: Menulis? Kenapa Tidak

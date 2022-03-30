@@ -8,6 +8,8 @@ author:
   picture: '/assets/blog/authors/afif.jpg'
 ogImage:
   url: '/assets/blog/22.reactjs-state/1.header-fix.png'
+wordCount: 953
+
 ---
 <!-- ---
 title: useState pada React Javascript

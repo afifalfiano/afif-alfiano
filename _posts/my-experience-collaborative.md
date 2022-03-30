@@ -8,6 +8,7 @@ author:
   picture: '/assets/blog/authors/afif.jpg'
 ogImage:
   url: '/assets/blog/16.collaborative/cover.jpg'
+wordCount: 350
 ---
 <!-- ---
 title: My Experience Collaborative

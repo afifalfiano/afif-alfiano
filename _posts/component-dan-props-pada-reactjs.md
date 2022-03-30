@@ -9,6 +9,7 @@ author:
 ogImage:
   url: '/assets/blog/21.reactjs-props/1.header.png'
 tag: reactjs
+wordCount: 610
 ---
 
 

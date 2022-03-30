@@ -1,9 +1,10 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { wordCount } from "../../utils/wordCount";
 
 
 const CardPost = ({ post }: any) => {
-
+    const totalRead = wordCount(post.wordCount) || 0;
     const timePublish = new Date(post.date).toLocaleDateString('id-ID');
 
     return (
@@ -19,10 +20,9 @@ const CardPost = ({ post }: any) => {
                     Read more
                     </button>
                     <p className="text-blue-500 font-semibold">
-                    8 minutes to read
+                    {totalRead} minutes to read
                     </p>
                 </div>
-                    
             </div>
         </motion.div>
         </Link>

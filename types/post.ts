@@ -11,6 +11,7 @@ type PostType = {
     url: string
   }
   content: string
+  wordCount: number;
 }
 
 export default PostType

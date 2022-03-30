@@ -8,6 +8,8 @@ author:
   picture: '/assets/blog/authors/afif.jpg'
 ogImage:
   url: '/assets/blog/23.reactjs-list/header-fix.png'
+wordCount: 667
+
 ---
 
 <!-- ---

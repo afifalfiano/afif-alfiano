@@ -8,6 +8,8 @@ author:
   picture: '/assets/blog/authors/afif.jpg'
 ogImage:
   url: '/assets/blog/12.forms/1.header.jpeg'
+wordCount: 950
+
 ---
 <!-- ---
 title: Reactive Forms on Angular

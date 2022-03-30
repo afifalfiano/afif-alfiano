@@ -8,6 +8,7 @@ author:
   picture: '/assets/blog/authors/afif.jpg'
 ogImage:
   url: '/assets/blog/15.husky/1.header.png'
+wordCount: 496
 ---
 
 <!-- ---

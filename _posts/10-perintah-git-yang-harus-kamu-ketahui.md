@@ -3,6 +3,7 @@ title: '10 perintah git yang harus kamu ketahui'
 excerpt: 'Selamat Sore. Bagaimana kabarmu hari ini? Semoga selalu diberikan kesehatan dan semangat yang tak pernah padam. Pernahkah kamu berkolaborasi dengan orang lain? Bagaimana cara memanajemen project yang dikerjakan? '
 coverImage: '/assets/blog/preview/cover.jpg'
 date: '2020-07-11T10:12:00.000Z'
+wordCount: 1449
 author:
   name: 'Afif Alfiano'
   picture: '/assets/blog/authors/afif.jpg'

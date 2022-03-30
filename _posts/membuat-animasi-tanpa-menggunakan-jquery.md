@@ -8,6 +8,8 @@ author:
   picture: '/assets/blog/authors/afif.jpg'
 ogImage:
   url: '/assets/blog/11.jquery/1.header.png'
+wordCount: 496
+
 ---
 <!-- ---
 title: Membuat animasi tanpa menggunakan jquery

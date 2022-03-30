@@ -8,6 +8,8 @@ author:
   picture: '/assets/blog/authors/afif.jpg'
 ogImage:
   url: '/assets/blog/14.bazel/1.header.jpeg'
+wordCount: 836
+
 ---
 
 <!-- ---

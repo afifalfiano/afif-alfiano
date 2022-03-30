@@ -8,6 +8,8 @@ author:
   picture: '/assets/blog/authors/afif.jpg'
 ogImage:
   url: '/assets/blog/18.reactjs/5.default-view.png'
+wordCount: 2817
+  
 ---
 
 <!-- ---

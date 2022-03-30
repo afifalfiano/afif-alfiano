@@ -8,6 +8,8 @@ author:
   picture: '/assets/blog/authors/afif.jpg'
 ogImage:
   url: '/assets/blog/13.todolist/1.header.png'
+wordCount: 847
+
 ---
 <!-- ---
 title: Membuat aplikasi todolist menggunakan angular 9

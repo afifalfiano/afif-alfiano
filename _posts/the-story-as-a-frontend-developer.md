@@ -8,6 +8,8 @@ author:
   picture: '/assets/blog/authors/afif.jpg'
 ogImage:
   url: '/assets/blog/6.story-fe/1.header.jpeg'
+wordCount: 314
+
 ---
 <!-- ---
 title: The story as a FE

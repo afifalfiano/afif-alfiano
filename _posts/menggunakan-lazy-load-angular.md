@@ -8,6 +8,8 @@ author:
   picture: '/assets/blog/authors/afif.jpg'
 ogImage:
   url: '/assets/blog/7.lazy-load-angular/1.header.jpeg'
+wordCount: 1171
+
 ---
 <!-- ---
 title: Menggunakan Lazy Load di Angular

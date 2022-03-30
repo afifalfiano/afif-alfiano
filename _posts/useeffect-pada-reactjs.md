@@ -8,6 +8,8 @@ author:
   picture: '/assets/blog/authors/afif.jpg'
 ogImage:
   url: '/assets/blog/24.reactjs-efek/fix-header.png'
+wordCount: 889
+
 ---
 <!-- ---
 title: useEffect pada React Javascript
