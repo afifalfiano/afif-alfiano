@@ -14,7 +14,7 @@ const Header = () => {
                 <button className='rounded-lg text-white font-bold py-2 px-4 bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-pink-500 hover:to-yellow-500 transition-all duration-200'>Concact Me</button>
             </motion.div>
             <motion.div initial={{opacity: 0}} animate={{ opacity: 1}} transition={{delay: .3, duration: .7}} className='flex flex-auto '>
-                <img src="../assets/afif.png" alt="Afif" className="img w-full" />
+                <img src="../assets/new-afif.png" alt="Afif" className="img w-full" />
             </motion.div>
             </div>
         </div>
