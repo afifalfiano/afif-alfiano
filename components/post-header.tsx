@@ -15,6 +15,9 @@ const PostHeader = ({ title, coverImage, date, author }: Props) => {
   return (
     <div className='flex flex-col justify-center items-center text-center'>
       <PostTitle>{title}</PostTitle>
+      <div className='block mb-6'>
+      <DateFormatter dateString={date} />
+      </div>
       <div className="hidden md:block md:mb-12">
         <Avatar name={author.name} picture={author.picture} />
       </div>
@@ -25,7 +28,7 @@ const PostHeader = ({ title, coverImage, date, author }: Props) => {
         <div className="block md:hidden mb-6">
           <Avatar name={author.name} picture={author.picture} />
         </div>
-        <div className="mb-6 text-lg">
+        <div className="mb-6 text-lg lg:hidden">
           <DateFormatter dateString={date} />
         </div>
       </div>
