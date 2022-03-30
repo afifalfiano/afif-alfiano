@@ -1,5 +1,5 @@
 .header-nav {
-    @apply flex justify-between bg-indigo-900 py-5 px-20 fixed w-full shadow-2xl z-10 mx-auto top-0;
+    @apply flex justify-between bg-indigo-900 py-4 px-20 fixed w-full shadow-xl z-10 mx-auto top-0;
 }
 
 .title {

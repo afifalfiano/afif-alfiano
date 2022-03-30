@@ -8,7 +8,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     <>
     <NavBar/>
     <AnimatePresence exitBeforeEnter>
-      <div className='mt-20'>
+      <div className='mt-18 pt-10'>
       <Component {...pageProps}/>
       </div>
     </AnimatePresence>
