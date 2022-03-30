@@ -1,8 +1,9 @@
 module.exports = {
-  mode: 'jit',
+  darkmode: 'class',
   content: ['./components/**/*.tsx', './pages/**/*.tsx'],
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+  ]
 }
