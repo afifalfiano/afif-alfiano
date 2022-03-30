@@ -11,6 +11,7 @@ import { CMS_NAME } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
 import PostType from '../../types/post'
 import Header from '../../components/own/Header'
+import { motion } from 'framer-motion'
 // import Prism from 'prismjs'
 // import { useEffect } from 'react'
 
@@ -33,6 +34,7 @@ const Post = ({ post, morePosts, preview }: Props) => {
     return <ErrorPage statusCode={404} />
   }
   return (
+    <motion.div exit={{opacity:0}}>
     <Layout preview={preview}>
       <Container>
         <Header />
@@ -59,6 +61,7 @@ const Post = ({ post, morePosts, preview }: Props) => {
         )}
       </Container>
     </Layout>
+    </motion.div>
   )
 }
 
