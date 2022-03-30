@@ -73,7 +73,7 @@ const About = () => {
         <div className="w-full mx-auto bg-[url('../public/assets/about/about.png')] bg-cover bg-no-repeat bg-center	" >
         <div className="container mx-auto grid grid-cols-2  py-36  gap-x-20 ">
             <div className="flex  justify-center items-start flex-auto ">
-                <img src="../assets/about/about-me.png" alt="About" className="img w-full" />
+                <img src="../assets/about/about-me.png" alt="About" className="img w-full" width="200" loading="lazy" />
             </div>
             <div className='flex flex-col justify-center items-start flex-auto'>
                 <h1 className='text-8xl  pb-8 font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'>About Me</h1>

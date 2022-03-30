@@ -10,7 +10,7 @@ const CardPost = ({ post }: any) => {
     return (
         <Link href={'/posts/' + post.slug}>
         <motion.div  whileHover={{scale: 1.1, cursor: 'pointer'}} transition={{duration: .5}} key={post.slug} className="flex flex-col w-full bg-white rounded-lg ">
-            <div className="h-52 w-auto"><img src={post.coverImage} alt={post.title} className="rounded-tl-lg rounded-tr-lg w-full h-full" /></div>
+            <div className="h-52 w-auto"><img src={post.coverImage} alt={post.title} className="rounded-tl-lg rounded-tr-lg w-full h-full" width="200" loading="lazy" /></div>
             <div className="p-5 flex flex-col">
                 <p className="h-16 font-semibold text-lg">{post.title}</p>
                 <p className="h-8 text-gray-500">Post on <span className="text-blue-500">{timePublish}</span> by <span className="text-blue-500">{post.author.name}</span></p>
