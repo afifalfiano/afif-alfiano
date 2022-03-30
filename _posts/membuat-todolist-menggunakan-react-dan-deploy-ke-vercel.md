@@ -45,7 +45,10 @@ Kemudian kita inisiasi project reactjs dengan menjalankan perintah npx create-re
 npx create-react-js
 ```
 
-<img src="../public/assets/blog/18.reactjs/2.create-project.png" alt="Init" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/18.reactjs/2.create-project.png" alt="Init" style="width: 100%; border-radius: 5px">
+
+![Init](/assets/blog/18.reactjs/2.create-project.png "Init")
+
 
 Tunggu sampai proses inisiasi project tersebut selesai.
 
