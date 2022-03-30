@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 
 const CardPost = ({ post }: any) => {
@@ -11,7 +12,11 @@ const CardPost = ({ post }: any) => {
                 <p className="h-16 font-semibold text-lg">{post.title}</p>
                 <p className="h-8 text-gray-500">Post on <span className="text-blue-600">{timePublish}</span> by <span className="text-blue-600">{post.author.name}</span></p>
                 <p className="h-28 text-left">{post.excerpt.slice(0, 120) + '...'}</p>
-                <button className="items-end mt-5 rounded-lg text-white font-bold py-2 px-4 bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-pink-500 hover:to-yellow-500 ">Read more</button>
+                <Link href={'/posts/' + post.slug}>
+                    <button className="items-end mt-5 rounded-lg text-white font-bold py-2 px-4 bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-pink-500 hover:to-yellow-500">
+                    Read more
+                    </button>
+                    </Link>
             </div>
         </div>
     )

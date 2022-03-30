@@ -9,6 +9,7 @@ import { CMS_NAME } from '../lib/constants'
 import Post from '../types/post'
 import About from '../components/own/About'
 import FeaturedPost from '../components/own/FeaturedPost'
+import Footer from '../components/own/Footer'
 
 type Props = {
   allPosts: Post[]
@@ -20,6 +21,7 @@ const Index = ({ allPosts }: Props) => {
     <>
     <About />
     <FeaturedPost allPosts={allPosts} />
+    <Footer/>
     </>
   )
   // const heroPost = allPosts[0]
