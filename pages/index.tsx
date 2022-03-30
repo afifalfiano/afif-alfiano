@@ -7,6 +7,8 @@ import { getAllPosts } from '../lib/api'
 import Head from 'next/head'
 import { CMS_NAME } from '../lib/constants'
 import Post from '../types/post'
+import About from '../components/own/About'
+import FeaturedPost from '../components/own/FeaturedPost'
 
 type Props = {
   allPosts: Post[]
@@ -15,7 +17,10 @@ type Props = {
 const Index = ({ allPosts }: Props) => {
   return (
     // <Hero />
-    <></>
+    <>
+    <About />
+    <FeaturedPost allPosts={allPosts} />
+    </>
   )
   // const heroPost = allPosts[0]
   // const morePosts = allPosts.slice(1)
