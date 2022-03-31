@@ -11,17 +11,19 @@ const FeaturedPost  = ({allPosts}: Props) => {
     const newFeaturedPost = allPosts.slice(0,3);
     const featuredPost = newFeaturedPost.map((post: Post) => {
         return (
-            <CardPost key={post.slug} post={post}/>
+            <div className='my-8'>
+                <CardPost key={post.slug} post={post}/>
+            </div>
         )
     })
 
     return  (
         <div className='bg-gradient-to-r from-cyan-500 to-blue-500 w-full'>
-        <div className="container mx-auto  py-36">
-        <h1 className='text-8xl  pb-8 font-bold text-white text-center'>Featured Post</h1>
-        <p className='text-2xl  pb-10 text-white text-center'>This is my blog or tutorial that make other people can read and implements some tutorial.</p>
+        <div className="container mx-auto  lg:py-36 p-8">
+        <h1 className='lg:text-8xl pb-4 text-6xl lg:pb-8 font-bold text-white text-left lg:text-center'>Featured Post</h1>
+        <p className='lg:text-2xl text-xl  text-white lg:text-center text-left'>This is my blog or tutorial that make other people can read and implements some tutorial.</p>
 
-        <div className='md:flex sm:flex-col sm:gap-10 md:gap-10 justify-center item-center md:mx-20 sm:mx-10 sm:my-10'>
+        <div className='lg:flex lg:flex-col lg:gap-10 justify-center item-center'>
             {featuredPost}
         </div>
 
