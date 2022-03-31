@@ -21,7 +21,7 @@ const FeaturedPost  = ({allPosts}: Props) => {
         <h1 className='text-8xl  pb-8 font-bold text-white text-center'>Featured Post</h1>
         <p className='text-2xl  pb-10 text-white text-center'>This is my blog or tutorial that make other people can read and implements some tutorial.</p>
 
-        <div className='flex gap-10 justify-center item-center mx-20'>
+        <div className='md:flex sm:flex-col sm:gap-10 md:gap-10 justify-center item-center md:mx-20 sm:mx-10 sm:my-10'>
             {featuredPost}
         </div>
 
