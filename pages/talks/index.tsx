@@ -49,25 +49,25 @@ const Talks = ({talks}: any) => {
     return (
         <motion.div exit={{opacity: 0}} initial={{opacity: 0}} animate={{opacity: 1}} transition={{delay: .1, duration: 1, type: 'tween'}}>
         <Meta />
-        <div className="container mx-auto mt-16">
+        <div className="container mx-auto px-5 py-8">
                 <h1 className="text-5xl md:text-6xl font-bold tracking-tighter leading-tight md:pr-8">
                 Talks.
                 </h1>
                 <div>
                     {talks.map((item: any) => {
                         return (
-                            <div className="flex flex-row gap-5 border-2 rounded-lg p-3 my-5">
+                            <div className="flex md:flex-row gap-5 border-2 rounded-lg p-3 my-5 flex-col" key={item.title}>
                                 <div className="flex flex-col w-full justify-between items-start">
                                 <div>
                                 <p key={item.title} className="font-semibold text-2xl pb-3">{item.title}</p>
-                                <p className="text-lg">{item.description}</p>
+                                <p className="text-lg text-justify tracking-tighter">{item.description}</p>
                                 </div>
-                                    <a href={item.file} target="_blank" rel="noopener noreferrer" className={`mt-5 rounded-lg text-white font-bold py-2 px-4 bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-pink-500 hover:to-yellow-500 transition-colors  duration-200 delay-200 ${item.isFile ? 'cursor-pointer' : 'cursor-not-allowed'}`}>
+                                    <a href={item.file} target="_blank" rel="noopener noreferrer" className={`mt-5 rounded-lg text-white font-semibold py-2 px-4 bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-pink-500 hover:to-yellow-500 transition-colors  duration-200 delay-200 ${item.isFile ? 'cursor-pointer' : 'cursor-not-allowed'}`}>
                                         {item.isFile ? 'Download Materi' : 'Tidak Ada Materi'}
                                     </a>
                                 </div>
-                                <div className="flex flex-auto h-52">
-                                    <iframe src={item.link} className="rounded-lg"></iframe>
+                                <div className="flex flex-auto  max-h-60 md:max-w-96 md:w-96">
+                                    <iframe src={item.link} className="rounded-lg  w-full"></iframe>
                                 </div>
                             </div>
 
