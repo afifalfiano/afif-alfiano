@@ -12,7 +12,7 @@ const CardPost = ({ post }: any) => {
         <motion.div  whileHover={{scale: 1.1, cursor: 'pointer'}} transition={{duration: .5}} key={post.slug} className="flex flex-col w-full bg-white rounded-lg ">
             <div className="relative">
             <div className="h-max-64 w-auto"><img src={post.coverImage} alt={post.title} className="rounded-tl-lg rounded-tr-lg w-full h-full" width="200" loading="lazy" /></div>
-            <p className="absolute top-0 lef-0 bg-blue-500 py-2 px-3 text-white  rounded-tl-lg lg:hidden md:hidden">
+            <p className="absolute top-0 lef-0 bg-blue-500 py-2 px-3 text-white  rounded-tl-lg rounded-br-lg lg:hidden md:hidden">
                     {totalRead} minute read
             </p>
             </div>
@@ -25,7 +25,7 @@ const CardPost = ({ post }: any) => {
                     Read more
                     </button>
                     <p className="text-blue-500 font-semibold hidden md:block lg:block">
-                    {totalRead} minutes to read
+                    {totalRead} minute read
                     </p>
                 </div>
             </div>
