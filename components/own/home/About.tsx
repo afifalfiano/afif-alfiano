@@ -71,13 +71,13 @@ const About = () => {
 
     return (
         <div className="w-full mx-auto bg-[url('../public/assets/about/about.png')] bg-cover bg-no-repeat bg-center	" >
-        <div className="container mx-auto md:grid md:grid-cols-2  sm:flex lg:py-36  gap-x-20 py-8 px-8">
+        <div className="container mx-auto md:grid md:grid-cols-2  sm:flex lg:py-36  gap-x-20 py-8 px-5">
             <div className="justify-center items-start lg:flex-auto  lg:flex hidden">
                 <img src="../assets/about/about-me.png" alt="About" className="img w-full" width="200" loading="lazy" />
             </div>
             <div className='flex flex-col justify-center items-start flex-auto'>
                 <h1 className='lg:text-8xl  lg:pb-8 text-6xl pb-4 font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'>About Me</h1>
-                <p className='lg:text-2xl  lg:pb-10 pb-6 text-xl '>Hello, I'm Afif Alfiano, a web developer based in Indonesia. I have experience in web design using figma, adobe xd and build from scratch.</p>
+                <p className='lg:text-2xl  lg:pb-10 pb-6 text-xl text-justify tracking-tight'>Hello, I'm Afif Alfiano, a web developer based in Indonesia. I have experience in web design using figma, adobe xd and build from scratch.</p>
                 <div className="flex flex-wrap gap-5">
                     {stack}
                 </div>
