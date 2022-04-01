@@ -20,7 +20,7 @@ const FeaturedPost  = ({allPosts}: Props) => {
     return  (
         <div className='bg-gradient-to-r from-cyan-500 to-blue-500 w-full'>
         <div className="container mx-auto  lg:py-36 py-8 px-5">
-        <h1 className='lg:text-8xl pb-4 text-6xl lg:pb-8 font-bold text-white text-left lg:text-center'>Featured Post</h1>
+        <h1 className='lg:text-8xl pb-4 text-5xl lg:pb-8 font-bold text-white text-left lg:text-center'>Featured Post</h1>
         <p className='lg:text-2xl text-xl  text-white lg:text-center text-justify tracking-tight'>This is my blog or tutorial about technology that you can learn from this and enjoy my posts.</p>
 
         <div className='lg:flex lg:flex-col lg:gap-10 justify-center item-center'>
