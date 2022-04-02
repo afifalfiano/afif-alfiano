@@ -67,7 +67,7 @@ const Talks = ({talks}: any) => {
                                     </a>
                                 </div>
                                 <div className="flex flex-auto  max-h-60 md:max-w-96 md:w-96">
-                                    <iframe src={item.link} className="rounded-lg  w-full"></iframe>
+                                    <iframe loading="lazy" src={item.link} className="rounded-lg  w-full"></iframe>
                                 </div>
                             </div>
 
