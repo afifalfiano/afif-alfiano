@@ -3,25 +3,25 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import styles from './NavBar.module.css';
 
-const headerVariant = {
-    hidden: {
-        y: -10,
-        opacity: 0
-    },
-    visible: {
-        y: 0,
-        opacity: 1,
-        transition: {
-            delay: 0.1,
-            duration: 0.5
-        }
-    }
-}
+// const headerVariant = {
+//     hidden: {
+//         y: -10,
+//         opacity: 0
+//     },
+//     visible: {
+//         y: 0,
+//         opacity: 1,
+//         transition: {
+//             delay: 0.1,
+//             duration: 0.3
+//         }
+//     }
+// }
 const NavBar = () => {
     const router = useRouter();
 
     return (
-        <motion.header variants={headerVariant} initial="hidden" animate="visible"  className={` ${styles['header-nav']}`}>
+        <header  className={` ${styles['header-nav']}`}>
             <div className="container mx-auto flex-row  flex justify-between" >
             <div className='flex  items-center justify-start'>
                 <h1 className={`${styles.title}`}>AA</h1>
@@ -38,7 +38,7 @@ const NavBar = () => {
             </Link>
             </div>
             </div>
-        </motion.header>
+        </header>
     )
 }
 
