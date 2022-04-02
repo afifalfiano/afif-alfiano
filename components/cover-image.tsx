@@ -14,7 +14,7 @@ const CoverImage = ({ title, src, slug, id }: Props) => {
       loading="lazy"
       src={src}
       alt={`Cover Image for ${title}`}
-      className={`shadow-sm ${id === 'hero' ? 'h-full' : 'lg:h-80 md:h-52 h-62'}  w-full hover:shadow-lg transition-shadow duration-200`}
+      className={`shadow-sm ${id === 'hero' ? 'h-full' : 'lg:h-80 md:h-52 h-62'}  w-full hover:shadow-lg transition-shadow duration-200 rounded-lg`}
     />
   )
   return (

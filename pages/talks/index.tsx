@@ -57,12 +57,12 @@ const Talks = ({talks}: any) => {
                     {talks.map((item: any) => {
                         return (
                             <div className="flex md:flex-row gap-5 border-2 rounded-lg p-3 my-5 flex-col" key={item.title}>
-                                <div className="flex flex-col w-full justify-between items-start">
+                                <div className="flex flex-col w-full justify-between items-start ">
                                 <div>
-                                <p key={item.title} className="font-semibold text-2xl pb-3">{item.title}</p>
-                                <p className="text-lg text-justify tracking-tighter">{item.description}</p>
+                                <p key={item.title} className="font-semibold text-2xl pb-3 prose prose-slate">{item.title}</p>
+                                <p className="text-lg text-justify tracking-tighter prose prose-slate">{item.description}</p>
                                 </div>
-                                    <a href={item.file} target="_blank" rel="noopener noreferrer" className={`mt-5 rounded-lg text-white font-semibold py-2 px-4 bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-pink-500 hover:to-yellow-500 transition-colors  duration-200 delay-200 ${item.isFile ? 'cursor-pointer' : 'cursor-not-allowed'}`}>
+                                    <a href={item.file} target="_blank" rel="noopener noreferrer" className={`mt-5 rounded-lg text-white font-semibold py-2 px-4 bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-pink-500 hover:to-yellow-500 transition-colors  duration-200 delay-200 prose prose-slate ${item.isFile ? 'cursor-pointer' : 'cursor-not-allowed'}`}>
                                         {item.isFile ? 'Download Materi' : 'Tidak Ada Materi'}
                                     </a>
                                 </div>

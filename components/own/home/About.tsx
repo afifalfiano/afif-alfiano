@@ -77,7 +77,7 @@ const About = () => {
             </div>
             <div className='flex flex-col justify-center items-start flex-auto'>
                 <h1 className='lg:text-8xl  lg:pb-8 text-5xl pb-4 font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'>About Me</h1>
-                <p className='lg:text-2xl  lg:pb-10 pb-6 text-xl text-justify tracking-tight'>Hello, I'm Afif Alfiano, a web developer based in Indonesia. I have experience in web design using figma, adobe xd and build from scratch.</p>
+                <p className='lg:text-2xl  lg:pb-10 pb-6 text-xl text-justify tracking-tight prose prose-slate'>Hello, I'm Afif Alfiano, a web developer based in Indonesia. I have experience in web design using figma, adobe xd and build from scratch.</p>
                 <div className="flex flex-wrap gap-5">
                     {stack}
                 </div>

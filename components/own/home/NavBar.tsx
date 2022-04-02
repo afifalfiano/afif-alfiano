@@ -21,7 +21,7 @@ const NavBar = () => {
     const router = useRouter();
 
     return (
-        <header  className={` ${styles['header-nav']}`}>
+        <header  className={` ${styles['header-nav']} `}>
             <div className="container mx-auto flex-row  flex justify-between" >
             <div className='flex  items-center justify-start'>
                 <h1 className={`${styles.title}`}>AA</h1>

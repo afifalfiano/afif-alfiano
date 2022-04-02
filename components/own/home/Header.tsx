@@ -11,8 +11,8 @@ const Header = () => {
                 </div>
                 <h2  className='lg:text-5xl text-white  lg:pb-8 font-semibold text-3xl pb-4 text-center w-full lg:text-left'>Frontend Developer</h2>
                 <h1 className='lg:text-8xl text-5xl text-white lg:pb-8 pb-4 font-bold text-center lg:text-left w-full'>Afif Alfiano</h1>
-                <p className='lg:text-2xl text-xl text-white pb-10 w-full text-justify tracking-tight'>Actually, I don't know what I'm doing for now. But I like to do this thing. Welcome to my personal web guys. Hopefully it is usefull for you.</p>
-                <button className='rounded-lg  flex self-center justify-self-center lg:justify-self-start lg:self-start  text-white font-bold py-2 px-4 bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-pink-500 hover:to-yellow-500 transition-colors  duration-200 delay-200'>Concact Me</button>
+                <p className='lg:text-2xl text-xl text-white pb-10 w-full text-justify tracking-tight prose prose-slate'>Actually, I don't know what I'm doing for now. But I like to do this thing. Welcome to my personal web guys. Hopefully it is usefull for you.</p>
+                <button className='rounded-lg  flex self-center  prose prose-slate justify-self-center lg:justify-self-start lg:self-start  text-white font-bold py-2 px-4 bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-pink-500 hover:to-yellow-500 transition-colors  duration-200 delay-200'>Concact Me</button>
             </motion.div>
             <motion.div initial={{opacity: 0}} animate={{ opacity: 1}} transition={{delay: .3, duration: .7}} className='lg:flex lg:items-center lg:flex-auto xl:flex xl:justify-end hidden xl:max-h-auto'>
                 <img src="../assets/new-afif.png" alt="Afif" className="img w-auto xl:max-w-md" width="200" loading="lazy"/>
