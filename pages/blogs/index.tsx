@@ -27,6 +27,7 @@ const Blog = ({ allPosts }: Props) => {
               author={heroPost.author}
               slug={heroPost.slug}
               excerpt={heroPost.excerpt}
+              id='hero'
             />
           )}
           {morePosts.length > 0 && <MoreStories posts={morePosts} />}
