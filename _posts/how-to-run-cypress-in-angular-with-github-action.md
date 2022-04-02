@@ -43,7 +43,7 @@ For your information in this case we don’t have a fancy user interface because
 
 #### 1. Initialize Project
 To start the project we can run this command
-```javascript
+```js
 ng new angular-cypress
 ```
 
