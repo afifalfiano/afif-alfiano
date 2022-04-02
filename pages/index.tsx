@@ -12,12 +12,12 @@ type Props = {
 
 const Index = ({ allPosts }: Props) => {
   return (
-    <motion.div exit={{opacity: 0}} initial={{opacity: 0}} animate={{opacity: 1}} transition={{delay: .1, duration: 1, type: 'tween'}}>
+    <div>
     <Header />
     <About />
     <FeaturedPost allPosts={allPosts} />
     <Footer/>
-    </motion.div>
+    </div>
   )
 }
 
