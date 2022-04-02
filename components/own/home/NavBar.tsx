@@ -22,6 +22,7 @@ const NavBar = () => {
 
     return (
         <motion.header variants={headerVariant} initial="hidden" animate="visible"  className={` ${styles['header-nav']}`}>
+            <div className="container mx-auto flex-row  flex justify-between" >
             <div className='flex  items-center justify-start'>
                 <h1 className={`${styles.title}`}>AA</h1>
             </div>
@@ -35,6 +36,7 @@ const NavBar = () => {
             <Link href="/talks">
                 <a className={`hover:border-b-4  hover:border-b-pink-500 hover:text-white  ${router.pathname === '/talks' ? styles.active: ''}`}>Talks</a>
             </Link>
+            </div>
             </div>
         </motion.header>
     )
