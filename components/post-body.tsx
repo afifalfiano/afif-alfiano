@@ -5,7 +5,6 @@ type Props = {
 }
 
 const PostBody = ({ content }: Props) => {
-  console.log(content,'cek');
 
   return (
     <div className="max-w-3xl mx-auto">
