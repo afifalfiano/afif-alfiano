@@ -7,6 +7,9 @@ pre {
     white-space: pre-wrap !important;
 }
 
+.prose {
+  max-width: 100%;
+}
 
 .link-preview-widget {
     display: table;

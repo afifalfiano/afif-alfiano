@@ -6,7 +6,6 @@ type Props = {
 }
 
 const PostBody = ({ content }: Props) => {
-  const a = 'a';
   return (
     <div className="max-w-3xl mx-auto">
       <div
