@@ -36,6 +36,9 @@ const NavBar = () => {
             <Link href="/talks">
                 <a className={`hover:border-b-4  hover:border-b-pink-500 hover:text-white  ${router.pathname === '/talks' ? styles.active: ''}`}>Talks</a>
             </Link>
+            <Link href="/about-me">
+                <a className={`hover:border-b-4  hover:border-b-pink-500 hover:text-white  ${router.pathname === '/about-me' ? styles.active: ''}`}>About Me</a>
+            </Link>
             </div>
             </div>
         </header>
