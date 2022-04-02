@@ -47,7 +47,7 @@ To start the project we can run this command
 ng new angular-cypress
 ```
 
-<img src="../public/assets/blog/25.angular-cypress/1.generate.png" alt="Generate" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/25.angular-cypress/1.generate.png" alt="Generate" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Wait a minute until the creating project is finished. 
 
@@ -59,7 +59,7 @@ ng serve
 
 If your project is not broken, that will show like the image below
 
-<img src="../public/assets/blog/25.angular-cypress/2.serve.png" alt="Serve" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/25.angular-cypress/2.serve.png" alt="Serve" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 #### 2. Adding Cypress on Project
 
@@ -71,14 +71,14 @@ Just run this command to add cypress in project
 ng add @cypress/schematics
 ```
 
-<img src="../public/assets/blog/25.angular-cypress/3.add-cypress.png" alt="Add-Cypress" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/25.angular-cypress/3.add-cypress.png" alt="Add-Cypress" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 
 If you want to change the default testing for e2e in angular just press Y for yes. The change is from protractor to cypress.
 
 The process of adding cypress in angular takes a while time. So just wait until the process is finished. 
 
-<img src="../public/assets/blog/25.angular-cypress/4.finish-cypress.png" alt="Finish-Cypress" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/25.angular-cypress/4.finish-cypress.png" alt="Finish-Cypress" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 The cypress added some files and change some scripts in angular.json
 
@@ -87,7 +87,7 @@ The cypress added some files and change some scripts in angular.json
 
 Create a new file on folder cypress > integrations with file name ui.spec.ts 	and remove the example test with filename spec.ts
 
-<img src="../public/assets/blog/25.angular-cypress/5.file-spec.png" alt="File-Spec" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/25.angular-cypress/5.file-spec.png" alt="File-Spec" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 The next step is to write code for e2e testing. In this test, I just want to check the title of the project in the frame.
 So, let’s write code test like this in the ui.spec.ts
@@ -108,21 +108,21 @@ Every testing always has a main title of testing and the main title of testing h
 
 Now, time to run the test in localhost. We have two types when running the e2e test with cypress. The first type is running in the terminal or console and the second type is running on the GUI of cypress. Let’s try the first type or on the console. If you want to run the e2e test in terminal mode, just run npm run cypress:run and make sure the project was run on localhost:4200.
 
-<img src="../public/assets/blog/25.angular-cypress/6.run-local.png" alt="Run-Local-Spec" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/25.angular-cypress/6.run-local.png" alt="Run-Local-Spec" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 The left side of the terminal is the command to run project with ng serve and right side of the terminal is the command to run the test in the terminal with npm run cypress:run
 
 Let’s try the second type is GUI of cypress. Just run npm run cypress:open and automatically will show this interface.
 
-<img src="../public/assets/blog/25.angular-cypress/7.ui-spec.png" alt="UI-Spec" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/25.angular-cypress/7.ui-spec.png" alt="UI-Spec" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Just click the Run 1 integration spec and the result of testing on the GUI of cypress is like this.
 
-<img src="../public/assets/blog/25.angular-cypress/8.e2e-gui.png" alt="GUI-Spec" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/25.angular-cypress/8.e2e-gui.png" alt="GUI-Spec" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 The one feature of cypress that I like is we can time travel on every step on e2e testing. If we hover the mouse in the contains Welcome, the interface it will show like this.
 
-<img src="../public/assets/blog/25.angular-cypress/9.travel.png" alt="Travel-Test" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/25.angular-cypress/9.travel.png" alt="Travel-Test" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 See? We can identify where is the element’s location.
 
@@ -130,7 +130,7 @@ See? We can identify where is the element’s location.
 
 Create file github-action.yaml in  folder .github/workflows. If on your project the folder doesn’t exist, just create the new folder.
 
-<img src="../public/assets/blog/25.angular-cypress/10.github-action.png" alt="Github-Action" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/25.angular-cypress/10.github-action.png" alt="Github-Action" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 After that at this config YAML to run cypress in GitHub action. Here is the code of github-action.yaml
 
@@ -167,27 +167,27 @@ After that, we create a new repository on Github and push this project. Make sur
 
 Because we need project id and record id from cypress. We should create an account at there and create a new project like this. Visit https://dashboard.cypress.io/login . You can log in with account Gmail or GitHub and after that create an organization for the project and just click create a new project.
 
-<img src="../public/assets/blog/25.angular-cypress/11.dashboard-cypress.png" alt="Dashboard-Cypress" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/25.angular-cypress/11.dashboard-cypress.png" alt="Dashboard-Cypress" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Give a project name like this and the CI provider choose Github Action
 
-<img src="../public/assets/blog/25.angular-cypress/12.new-project.png" alt="New-Project" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/25.angular-cypress/12.new-project.png" alt="New-Project" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 After that copy the project id and record id like this
 
-<img src="../public/assets/blog/25.angular-cypress/13.id-project.png" alt="Id-Project" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/25.angular-cypress/13.id-project.png" alt="Id-Project" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 The projectId copy on file cypress.json
 
-<img src="../public/assets/blog/25.angular-cypress/14.project-id.png" alt="Project-ID" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/25.angular-cypress/14.project-id.png" alt="Project-ID" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Then the script of the record key copy on package.json
 
-<img src="../public/assets/blog/25.angular-cypress/15.record-key.png" alt="Record-Key" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/25.angular-cypress/15.record-key.png" alt="Record-Key" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 To integrate our project and the dashboard cypress just run the npm run cypress:record.
 
-<img src="../public/assets/blog/25.angular-cypress/16.integrate.png" alt="Integrate" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/25.angular-cypress/16.integrate.png" alt="Integrate" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Wallaa!!!, The testing of a project runs on dashboard cypress.
 
@@ -197,11 +197,11 @@ Visit the repository on GitHub and click on tab action.
 
 Click on the build: add github action that still running and the detail show is like this.
 
-<img src="../public/assets/blog/25.angular-cypress/17.build.png" alt="Build" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/25.angular-cypress/17.build.png" alt="Build" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Oh nooo! The testing is getting an error
 
-<img src="../public/assets/blog/25.angular-cypress/18.build-error.png" alt="Error" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/25.angular-cypress/18.build-error.png" alt="Error" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 We need to add the Cypress record key on the environment variable at Github.
 
@@ -209,37 +209,37 @@ We need to add the Cypress record key on the environment variable at Github.
 
 On the repository project just click on tab settings
 
-<img src="../public/assets/blog/25.angular-cypress/19.variable.png" alt="Tab-Variable" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/25.angular-cypress/19.variable.png" alt="Tab-Variable" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Then go to secrets.
 
-<img src="../public/assets/blog/25.angular-cypress/20.new-variable.png" alt="New-Variable" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/25.angular-cypress/20.new-variable.png" alt="New-Variable" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Click create a new repository secret.
 
-<img src="../public/assets/blog/25.angular-cypress/21.key-record.png" alt="Key-Record" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/25.angular-cypress/21.key-record.png" alt="Key-Record" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Add the name of the secret is CYPRESS_RECORD_KEY and paste the key record on the field value.
 
-<img src="../public/assets/blog/25.angular-cypress/22.success-key-record.png" alt="Success-Key-Record" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/25.angular-cypress/22.success-key-record.png" alt="Success-Key-Record" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Back in the tab Action and click on the build was failed.
 
-<img src="../public/assets/blog/25.angular-cypress/23.rebuild.png" alt="Rebuild" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/25.angular-cypress/23.rebuild.png" alt="Rebuild" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Click on the re-run all jobs at the top left.
 
 Just waiting at the moment
 
-<img src="../public/assets/blog/25.angular-cypress/24.wait-rebuild.png" alt="Wait-Rebuild" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/25.angular-cypress/24.wait-rebuild.png" alt="Wait-Rebuild" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Yap the testing has completed without error 
 
-<img src="../public/assets/blog/25.angular-cypress/25.success-rebuild.png" alt="Success-Rebuild" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/25.angular-cypress/25.success-rebuild.png" alt="Success-Rebuild" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 For your information, we can check the result of the test in dashboard.cypress.
 
-<img src="../public/assets/blog/25.angular-cypress/26.monitoring.png" alt="Monitoring" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/25.angular-cypress/26.monitoring.png" alt="Monitoring" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Yap, the result of the test from GitHub action. So the integration is successful.
 

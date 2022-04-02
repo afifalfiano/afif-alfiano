@@ -126,7 +126,7 @@ Kemudian kita coba jalankan dulu aplikasinya dengan menjalanka perintah
 npm run start
 ```
 
-<img src="../public/assets/blog/21.reactjs-props/2.belajar.png" alt="Belajar" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/21.reactjs-props/2.belajar.png" alt="Belajar" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Jika kita lihat pada gambar diatas ada kotak merah. Nah konten atau elemen yang ada dialam kotak merah tersebut adalah komponen Belajar. Jadi cukup mudah ya untuk membuat komponen itu. Mungkin teman-teman bertanya kok di komponen Belajar ada keterangan props? Nah ini akan kita bahas.
 
@@ -178,7 +178,7 @@ export default Belajar;
 
 Maka hasilnya seperti ini.
 
-<img src="../public/assets/blog/21.reactjs-props/3.console.png" alt="Console" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/21.reactjs-props/3.console.png" alt="Console" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Kalau kita lihat console tersebut muncul pada file Belajar.js yang berarti data dari app.js berhasil kita kirimkan ke belajar.js. Bagaimana apakah sudah kebayang?
 
@@ -204,7 +204,7 @@ export default App;
 
 Maka hasilnya seperti ini
 
-<img src="../public/assets/blog/21.reactjs-props/4.console-1.png" alt="Console-1" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/21.reactjs-props/4.console-1.png" alt="Console-1" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Terdapat 3 props pada komponen belajar karena kita barusan menambahkannya.
 
@@ -234,7 +234,7 @@ export default Belajar;
 
 Dengan cara melakukan desctructuring object props. Maka hasilnya seperti ini.
 
-<img src="../public/assets/blog/21.reactjs-props/5.get-one.png" alt="GetOne" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/21.reactjs-props/5.get-one.png" alt="GetOne" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Sebenarnya kita juga bisa memanggil props tersebut dengan seperti ini props.title atau props.description atau props.dataProps tapi itu tidak clean dan singkat. Karena pada es6 sudah ada fitur desctructuring, kenapa tidak kita gunakan? Hehe
 
@@ -263,7 +263,7 @@ export default Belajar;
 
 Maka hasilnya seperti ini
 
-<img src="../public/assets/blog/21.reactjs-props/6.state.png" alt="State" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/21.reactjs-props/6.state.png" alt="State" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Yap, list pada komponen belajar yang awalnya cuma ada 2 sekarang ada 5 dengan tambahan 3 data dari app.js. 
 

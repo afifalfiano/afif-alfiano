@@ -42,7 +42,7 @@ Pastikan teman-teman sudah membuat project baru atau kalau tidak ingin ribet tin
 
 Kemudian kita coba jalankan dan langsung buka tab element, maka tampilannya seperti ini.
 
-<img src="../public/assets/blog/19.reactjs-portal/1.header.png" alt="Header" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/19.reactjs-portal/1.header.png" alt="Header" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Kita melihat bahwa komponen app ada didalam elemen div dengan id root. Kemudian coba kita tambahkan komponen lainnya.
 
@@ -96,26 +96,26 @@ export default App;
 
 Maka tampilannya seperti ini
 
-<img src="../public/assets/blog/19.reactjs-portal/2.portal.png" alt="Portal" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/19.reactjs-portal/2.portal.png" alt="Portal" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Kita lihat bahwa komponen Portal yang berisi element div dan h2 dengan teks Hello Guys, I’m a children component tetap berada di satu root element.
 Nah sekarang pertanyaan bagaimana cara membuat komponen portal berada diluar elemen div dengan id root?
 
 Inilah fungsi dari react portal. Kita tambahkan dulu pada index.html seperti berikut ini.
 
-<img src="../public/assets/blog/19.reactjs-portal/3.index.png" alt="Index" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/19.reactjs-portal/3.index.png" alt="Index" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Karena kita perlu merender diluar elemen div dengan id root maka perlu membuat satu elemen baru lagi yaitu div dengan id portal-root.
 
 Kemudian pada app.js tinggal kita ubah seperti ini.
 
-<img src="../public/assets/blog/19.reactjs-portal/4.appjs.png" alt="App" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/19.reactjs-portal/4.appjs.png" alt="App" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Kita import ReactDOM kemudian panggil fungsi createPortal. Nah create portal sendiri memiliki 2 parameter yaitu parameter pertama untuk komponen yang akan kita gunakan pada kasus ini adalah komponen portal, kemudian parameter kedua adalah dimana komponen tersebut akan kita render. Pada kasus ini karena tadi kita telah menambahkan div dengan id portal-root maka kita panggil element tersebut berdasarkan idnya.
 
 Maka ketika kita kembali ke browser tampilannya seperti berikut ini.
 
-<img src="../public/assets/blog/19.reactjs-portal/5.finish.png" alt="Finish" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/19.reactjs-portal/5.finish.png" alt="Finish" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Kita lihat bahwa komponen portal sudah tidak ada didalam elemen div dengan id root tapi sekarang berada di elemen div dengan id portal-root.
 Best practice penggunaan portal ini biasanya untuk membuat sebuah modal informasi. Karena pada dasarnya sebuah komponen modal itu harus berada diluar komponen parentnya karena kita perlu semacam backdrop dan modal itu sendiri.

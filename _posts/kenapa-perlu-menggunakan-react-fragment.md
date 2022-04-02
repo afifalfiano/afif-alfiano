@@ -83,7 +83,7 @@ export default App;
 
 Maka tampilannya seperti berikut ini
 
-<img src="../public/assets/blog/20.reactjs-fragments/1.header.png" alt="Header" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/20.reactjs-fragments/1.header.png" alt="Header" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Misalkan kita modifikasi seperti ini atau return lebih dari satu root komponen.
 
@@ -103,7 +103,7 @@ export default Header;
 
 Jika kita jalankan kode diatas maka akan muncul error seperti berikut ini
 
-<img src="../public/assets/blog/20.reactjs-fragments/2.error.png" alt="Error" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/20.reactjs-fragments/2.error.png" alt="Error" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Error diatas bahkan kita sudah disarankan untuk menggunakan fitur fragment. Menarik bukan?
 
@@ -138,7 +138,7 @@ export default Header;
 
 Maka ketika kita lihat pada inspect element tampilannya seperti berikut ini.
 
-<img src="../public/assets/blog/20.reactjs-fragments/3.fragment-1.png" alt="Fragment-1" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/20.reactjs-fragments/3.fragment-1.png" alt="Fragment-1" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Kita lihat bahwa komponen header cuma mereturn h1 saja karena kita sudah menggunakan fragment alias element kosong.
 
@@ -157,7 +157,7 @@ export default Header;
 
 Maka tampilannya seperti berikut ini.
 
-<img src="../public/assets/blog/20.reactjs-fragments/3.fragment-1.png" alt="Fragment-1" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
+<img src="/assets/blog/20.reactjs-fragments/3.fragment-1.png" alt="Fragment-1" class="img img-responsive mb-3" style="width: 100%; border-radius: 5px;" >
 
 Hasilnya pun sama
 
