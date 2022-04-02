@@ -2,7 +2,6 @@
     "theme_color": "#9013fe",
     "background_color": "#9013fe",
     "display": "standalone",
-    "scope": ".",
     "start_url": "/",
     "name": "Afif Alfiano",
     "short_name": "AA",
