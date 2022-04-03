@@ -5,7 +5,7 @@ coverImage: '/assets/blog/17.cypress/cover.png'
 date: '2020-10-10T10:12:00.000Z'
 author:
   name: 'Afif Alfiano'
-  picture: '/assets/blog/authors/afif.jpg'
+  picture: '/assets/new-afif.jpeg'
 ogImage:
   url: '/assets/blog/17.cypress/cover.png'
 wordCount: 1639

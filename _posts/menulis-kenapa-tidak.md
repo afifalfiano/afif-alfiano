@@ -5,7 +5,7 @@ coverImage: '/assets/blog/1.menulis-kenapa-tidak/header.jpg'
 date: '2020-03-25T10:12:00.000Z'
 author:
   name: 'Afif Alfiano'
-  picture: '/assets/blog/authors/afif.jpg'
+  picture: '/assets/new-afif.jpeg'
 ogImage:
   url: '/assets/blog/1.menulis-kenapa-tidak/header.jpg'
 wordCount: 566

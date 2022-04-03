@@ -5,7 +5,7 @@ coverImage: '/assets/blog/20.reactjs-fragments/1.header.png'
 date: '2021-11-07T10:12:00.000Z'
 author:
   name: 'Afif Alfiano'
-  picture: '/assets/blog/authors/afif.jpg'
+  picture: '/assets/new-afif.jpeg'
 ogImage:
   url: '/assets/blog/20.reactjs-fragments/1.header.png'
 wordCount: 641

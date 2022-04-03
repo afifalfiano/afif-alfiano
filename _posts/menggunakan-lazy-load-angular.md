@@ -5,7 +5,7 @@ coverImage: '/assets/blog/7.lazy-load-angular/1.header.jpeg'
 date: '2020-07-04T10:12:00.000Z'
 author:
   name: 'Afif Alfiano'
-  picture: '/assets/blog/authors/afif.jpg'
+  picture: '/assets/new-afif.jpeg'
 ogImage:
   url: '/assets/blog/7.lazy-load-angular/1.header.jpeg'
 wordCount: 1171

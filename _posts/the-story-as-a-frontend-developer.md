@@ -5,7 +5,7 @@ coverImage: '/assets/blog/6.story-fe/1.header.jpeg'
 date: '2021-06-10T10:12:00.000Z'
 author:
   name: 'Afif Alfiano'
-  picture: '/assets/blog/authors/afif.jpg'
+  picture: '/assets/new-afif.jpeg'
 ogImage:
   url: '/assets/blog/6.story-fe/1.header.jpeg'
 wordCount: 314

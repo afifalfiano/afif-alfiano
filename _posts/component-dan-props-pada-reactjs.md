@@ -5,7 +5,7 @@ coverImage: '/assets/blog/21.reactjs-props/1.header.png'
 date: '2021-11-07T10:12:00.000Z'
 author:
   name: 'Afif Alfiano'
-  picture: '/assets/blog/authors/afif.jpg'
+  picture: '/assets/new-afif.jpeg'
 ogImage:
   url: '/assets/blog/21.reactjs-props/1.header.png'
 tag: reactjs

@@ -5,7 +5,7 @@ coverImage: '/assets/blog/25.angular-cypress/26.monitoring.png'
 date: '2021-12-03T10:12:00.000Z'
 author:
   name: 'Afif Alfiano'
-  picture: '/assets/blog/authors/afif.jpg'
+  picture: '/assets/new-afif.jpeg'
 ogImage:
   url: '/assets/blog/25.angular-cypress/26.monitoring.png'
 wordCount: 1113

@@ -5,7 +5,7 @@ coverImage: '/assets/blog/15.husky/1.header.png'
 date: '2021-08-29T10:12:00.000Z'
 author:
   name: 'Afif Alfiano'
-  picture: '/assets/blog/authors/afif.jpg'
+  picture: '/assets/new-afif.jpeg'
 ogImage:
   url: '/assets/blog/15.husky/1.header.png'
 wordCount: 496

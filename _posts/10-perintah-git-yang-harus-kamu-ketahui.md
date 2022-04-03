@@ -6,7 +6,7 @@ date: '2020-07-11T10:12:00.000Z'
 wordCount: 1449
 author:
   name: 'Afif Alfiano'
-  picture: '/assets/blog/authors/afif.jpg'
+  picture: '/assets/new-afif.jpeg'
 ogImage:
   url: '/assets/blog/10.git/1.header.jpeg'
 ---

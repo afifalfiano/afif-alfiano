@@ -5,7 +5,7 @@ coverImage: '/assets/blog/14.bazel/1.header.jpeg'
 date: '2020-06-14T10:12:00.000Z'
 author:
   name: 'Afif Alfiano'
-  picture: '/assets/blog/authors/afif.jpg'
+  picture: '/assets/new-afif.jpeg'
 ogImage:
   url: '/assets/blog/14.bazel/1.header.jpeg'
 wordCount: 836
