@@ -30,6 +30,7 @@ export default class MyDocument extends Document {
           <meta name="theme-color" content='#9013fe'></meta>
           <link rel="manifest" href="/manifest.json" />
           <link rel="apple-touch-icon" href="/icon.png"></link>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121190015-4"></script>
           <script dangerouslySetInnerHTML={{ __html: `
           <!-- Global site tag (gtag.js) - Google Analytics -->
           <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121190015-4"></script>
