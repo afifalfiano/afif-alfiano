@@ -8,7 +8,7 @@ const AboutMe = () => {
         <motion.div exit={{opacity: 0}} initial={{opacity: 0}} animate={{opacity: 1}} transition={{delay: .1, duration: 1, type: 'tween'}}>
         <Meta />
         <div className="container px-5 py-8 mx-auto">
-            <div className="flex justify-center">
+            <div className="flex md:justify-center">
             <h1 className="text-5xl md:text-6xl font-bold tracking-tighter leading-tight md:pr-8 text-center md:text-left pb-8">
             About Me.
             </h1>
@@ -17,19 +17,19 @@ const AboutMe = () => {
                 <h1 className="text-3xl md:text-4xl font-semibold tracking-tighter leading-tight ">Hi 👋, I'm Afif Alfiano</h1>
                 <ul>
                     <li>
-                    🌱 I’m currently learning React JS, Next JS
+                    🌱 &nbsp; I’m currently learning React JS, Next JS
                     </li>
                     <li>
-                    📝 I regularly write articles on https://afifalfiano.my.id
+                    📝&nbsp;  I regularly write articles on https://afifalfiano.my.id
                     </li>
                     <li>
-                    💬 Ask me about Angular 2+, Vue JS, React JS
+                    💬 &nbsp; Ask me about Angular 2+, Vue JS, React JS
                     </li>
                     <li>
-                    📫 How to reach me afifalfiano2@gmail.com
+                    📫 &nbsp; How to reach me afifalfiano2@gmail.com
                     </li>
                     <li>
-                    ⚡ Fun fact Explorer and Researcher
+                    ⚡ &nbsp; Fun fact Explorer and Researcher
                     </li>
                 </ul>
                 <h1 className="text-3xl md:text-4xl font-semibold tracking-tighter leading-tight pt-5 ">🧑🏽‍💻 Experience   </h1>
