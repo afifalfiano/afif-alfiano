@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript, DocumentContext } from 'next/document'
+import Script from 'next/script';
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
@@ -30,8 +31,12 @@ export default class MyDocument extends Document {
           <meta name="theme-color" content='#9013fe'></meta>
           <link rel="manifest" href="/manifest.json" />
           <link rel="apple-touch-icon" href="/icon.png"></link>
-          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121190015-4"></script>
-          <script dangerouslySetInnerHTML={{ __html: `
+          <Script src='https://www.googletagmanager.com/gtag/js?id=UA-121190015-4'  onError={(e) => {
+          console.error('Script failed to load', e)
+        }} async={true} />
+          <Script  strategy="afterInteractive" onError={(e) => {
+          console.error('Script failed to load', e)
+        }} dangerouslySetInnerHTML={{ __html: `
           <!-- Global site tag (gtag.js) - Google Analytics -->
           <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121190015-4"></script>
           <script>
@@ -41,7 +46,7 @@ export default class MyDocument extends Document {
           
             gtag('config', 'UA-121190015-4');
           </script>      
-          `}}></script>
+          `}} />
         </Head>
         <body>
         <noscript dangerouslySetInnerHTML={{ __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=UA-121190015-4"
