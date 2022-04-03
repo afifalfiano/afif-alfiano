@@ -3,9 +3,9 @@
 @tailwind utilities;
 @tailwind screens;
 
-pre {
+/* pre {
     white-space: pre-wrap !important;
-}
+} */
 
 .prose {
   max-width: 100%;

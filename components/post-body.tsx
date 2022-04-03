@@ -9,7 +9,7 @@ const PostBody = ({ content }: Props) => {
   return (
     <div className="max-w-3xl mx-auto">
       <div
-        className={`${markdownStyles['markdown']} prose prose-slate`}
+        className={`${markdownStyles['markdown']} prose prose-slate `}
         dangerouslySetInnerHTML={{ __html: content }}
       ></div>
 
