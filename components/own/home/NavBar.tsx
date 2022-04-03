@@ -51,7 +51,7 @@ const NavBar = () => {
             </div>
 
             <div className="md:hidden flex items-center">
-            <button className="outline-none mobile-menu-button" onClick={handlerHamburgerMenu}>
+            <button className="outline-none mobile-menu-button" onClick={handlerHamburgerMenu} title="menu" aria-label="menu">
                 <svg
                     className="w-6 h-6 text-white"
                     x-show="!showMenu"
