@@ -36,7 +36,7 @@ const AboutMe = () => {
                 <ul>
                     <li>
                         <div>
-                        <h1 className="text-xl md:text-xl font-semibold tracking-tighter leading-tight ">💻  Badan Sistem Informasi - Universitas Islam Indonesia</h1>
+                        <h1 className="text-xl md:text-xl font-semibold tracking-tighter leading-tight ">💻  &nbsp; Badan Sistem Informasi - Universitas Islam Indonesia (Full-time)</h1>
                         <ul>
                             <li>
                                 <div>
@@ -72,6 +72,46 @@ const AboutMe = () => {
                                     <li>Reinstall some personal computer or laptop that need to be reinstall</li>
                                     <li>Create flyer and poster to promote UIIAcademy to share knowledge</li>
                                     </ul>
+                                </div>
+                            </li>
+                        </ul>
+
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                        <h1 className="text-xl md:text-xl font-semibold tracking-tighter leading-tight ">💻 &nbsp; Kulkul Technology (Freelance)</h1>
+                        <ul>
+                            <li>
+                                <div>
+                                <h1 className="text-xl md:text-xl font-semibold tracking-tighter leading-tight ">📚 &nbsp; Frontend Developer (Aug 2021 - Oct 2021)</h1>
+                                <ul >
+                                <li>Build a new application from scratch using Angular.</li>
+                                <li>Create the best structure project that easiest to scaleable feature.</li>
+                                <li>Implementation design to application.</li>
+                                <li>Using Ng Bootstrap as a library for a component.</li>
+                                <li>Integrate API with backend to communication data.</li>
+                                </ul>
+                                </div>
+                            </li>
+                        </ul>
+
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                        <h1 className="text-xl md:text-xl font-semibold tracking-tighter leading-tight ">💻 &nbsp; Manusia Tech (Part-time)</h1>
+                        <ul>
+                            <li>
+                                <div>
+                                <h1 className="text-xl md:text-xl font-semibold tracking-tighter leading-tight ">📚 &nbsp; Frontend Developer (Mar 2021 - May 2021)</h1>
+                                <ul >
+                                <li>Implement design to application with Angular framework</li>
+                                <li>Create a dynamic form using reactive form on Angular</li>
+                                <li>Bugs fixing some feature</li>
+                                <li>Integrate API with backend to communicate data</li>
+                                <li>Team working with Scrum</li>
+                                </ul>
                                 </div>
                             </li>
                         </ul>
