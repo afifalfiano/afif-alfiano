@@ -224,7 +224,7 @@ Yap, kita berhasil mengkonfigurasi lazy loading angular baik secara otomatis ata
 Berikut ini kode lengkapnya saya letakan di akun github saya.
 
 
-<p><div class="link-preview-widget"><a href="https://github.com/afifalfiano/lazy-loading-angular" rel="noopener" target="_blank"><div class="link-preview-widget-title">afifalfiano/lazy-loading-angular: Lazy Loading on Angular</div><div class="link-preview-widget-description">Lazy Loading on Angular. Contribute to afifalfiano/lazy-loading-angular development by creating an account on GitHub.</div><div class="link-preview-widget-url">https://github.com/</div></a><a class="link-preview-widget-image" href="https://github.com/afifalfiano/lazy-loading-angular" rel="noopener" style="background-image: url('https://opengraph.githubassets.com/dd2b265af6d47e0e8f38a49d485d106722d480847f83f6feb67a86b8b6ec6dad/afifalfiano/lazy-loading-angular');" target="_blank"></a></div></p>
+<p><div class="link-preview-widget"><a class="w-full" href="https://github.com/afifalfiano/lazy-loading-angular" rel="noopener" target="_blank"><div class="link-preview-widget-title">afifalfiano/lazy-loading-angular: Lazy Loading on Angular</div><div class="link-preview-widget-description">Lazy Loading on Angular. Contribute to afifalfiano/lazy-loading-angular development by creating an account on GitHub.</div><div class="link-preview-widget-url">https://github.com/</div></a><a class="link-preview-widget-image" href="https://github.com/afifalfiano/lazy-loading-angular" rel="noopener" style="background-image: url('https://opengraph.githubassets.com/dd2b265af6d47e0e8f38a49d485d106722d480847f83f6feb67a86b8b6ec6dad/afifalfiano/lazy-loading-angular');" target="_blank"></a></div></p>
 
 
 Semoga teman-teman dapat mempraktikan fitur lazy loading dari angular dan semoga bermanfaat. Tetap Semangat! .
@@ -233,7 +233,7 @@ Semoga teman-teman dapat mempraktikan fitur lazy loading dari angular dan semoga
 
 ### References
 
-<p><div class="link-preview-widget"><a href="https://angular.io/guide/lazy-loading-ngmodules" rel="noopener" target="_blank"><div class="link-preview-widget-title">Angular</div><div class="link-preview-widget-description">By default, NgModules are eagerly loaded, which means that as soon as the application loads, so do all the NgModules, whether or not they are immediately necessary</div><div class="link-preview-widget-url">https://angular.io/</div></a><a class="link-preview-widget-image" href="https://angular.io/guide/lazy-loading-ngmodules" rel="noopener" style="background-image: url('');" target="_blank"></a></div></p>
+<p><div class="link-preview-widget"><a  class="w-full" href="https://angular.io/guide/lazy-loading-ngmodules" rel="noopener" target="_blank"><div class="link-preview-widget-title">Angular</div><div class="link-preview-widget-description">By default, NgModules are eagerly loaded, which means that as soon as the application loads, so do all the NgModules, whether or not they are immediately necessary</div><div class="link-preview-widget-url">https://angular.io/</div></a><a class="link-preview-widget-image" href="https://angular.io/guide/lazy-loading-ngmodules" rel="noopener" style="background-image: url('');" target="_blank"></a></div></p>
 
 
 #Angular #LazyLoading

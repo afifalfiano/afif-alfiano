@@ -12,7 +12,7 @@
 }
 
 .link-preview-widget {
-    display: table;
+    display: flex;
     width: 100%;
     border: 1px solid #e6e6e6;
     border-radius: 4px;
@@ -53,7 +53,7 @@
   }
   
   .link-preview-widget > a {
-    display: table-cell;
+    display: flex;
     flex-direction: column;
     padding: 16px;
     cursor: pointer;
@@ -61,15 +61,11 @@
     text-decoration: none;
     color: inherit;
     background-color: transparent;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-box-flex: 1;
-    flex: 1;
   }
   
   .link-preview-widget-image {
-    width: 225px;
-    min-width: 220px;
+    width: 300px;
+    min-width: 20px;
     height: 150px;
     padding: 0;
     vertical-align: middle;
@@ -79,6 +75,5 @@
     background-position: 50%;
     background-size: cover;
     -webkit-box-flex: 0;
-    flex: 0;
   }
   

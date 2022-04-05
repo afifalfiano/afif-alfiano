@@ -40,13 +40,13 @@ Maka, pada kesempatan kali ini saya ingin berbagi pengetahuan tentang git. Apa i
 Pastika teman-teman sudah menginstall command line git ya, kalau di windows bisa pakai gitbash kalau di linux atau mac bisa tinggal install gitnya lewat terminal.
 
 
-<p><div class="link-preview-widget"><a href="https://git-scm.com/" rel="noopener" target="_blank"><div class="link-preview-widget-title">GIT </div><div class="link-preview-widget-description">Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</div><div class="link-preview-widget-url">https://git-scm.com/</div></a><a class="link-preview-widget-image" href="https://git-scm.com/" rel="noopener" style="background-image: url('https://git-scm.com/branching-illustration@2x.png');" target="_blank"></a></div></p>
+<p><div class="link-preview-widget"><a href="https://git-scm.com/" rel="noopener" target="_blank" class="w-full" ><div class="link-preview-widget-title">GIT </div><div class="link-preview-widget-description">Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</div><div class="link-preview-widget-url">https://git-scm.com/</div></a><a class="link-preview-widget-image" href="https://git-scm.com/" rel="noopener" style="background-image: url('https://git-scm.com/branching-illustration@2x.png');" target="_blank"></a></div></p>
 
 
 Sebelumnya saya telah membuat repository di github ya, jadi biar keliatan perubahannya seperti apa. Tapi repositorynya masih kosong dan tidak ada file readme dari github.
 
 
-<p><div class="link-preview-widget"><a href="https://github.com/afifalfiano/learn-git" rel="noopener" target="_blank"><div class="link-preview-widget-title">afifalfiano/learn-git: Learning How to implements git on github.</div><div class="link-preview-widget-description">Learning How to implements git on github. Contribute to afifalfiano/learn-git development by creating an account on GitHub.</div><div class="link-preview-widget-url">https://github.com/</div></a><a class="link-preview-widget-image" href="https://github.com/afifalfiano/learn-git" rel="noopener" style="background-image: url('https://opengraph.githubassets.com/d3ba7ae1354c210e30850b0d89f39012ec58b01b1f09b5a9f4ff79be45d45950/afifalfiano/learn-git');" target="_blank"></a></div></p>
+<p><div class="link-preview-widget"><a href="https://github.com/afifalfiano/learn-git" rel="noopener" target="_blank" class="w-full"><div class="link-preview-widget-title">afifalfiano/learn-git: Learning How to implements git on github.</div><div class="link-preview-widget-description">Learning How to implements git on github. Contribute to afifalfiano/learn-git development by creating an account on GitHub.</div><div class="link-preview-widget-url">https://github.com/</div></a><a class="link-preview-widget-image" href="https://github.com/afifalfiano/learn-git" rel="noopener" style="background-image: url('https://opengraph.githubassets.com/d3ba7ae1354c210e30850b0d89f39012ec58b01b1f09b5a9f4ff79be45d45950/afifalfiano/learn-git');" target="_blank"></a></div></p>
 
 
 Berikut ini 10 perintah git yang wajib teman-teman ketahui untuk memudahkan proses development suatu project.
@@ -174,7 +174,7 @@ Sangat lengkap bukan? Mohon maaf itu tadi ada penambah secara manual melalui git
 Okee, mungkin itu saja yang dapat saya share tentang git ini dan tetap <strong>saya sarankan teman-teman untuk membaca dokumentasi resmi dari git itu sendiri.</strong>
 
 
-<p><div class="link-preview-widget"><a href="https://github.com/afifalfiano/learn-git" rel="noopener" target="_blank"><div class="link-preview-widget-title">afifalfiano/learn-git: Learning How to implements git on github.</div><div class="link-preview-widget-description">Learning How to implements git on github. Contribute to afifalfiano/learn-git development by creating an account on GitHub.</div><div class="link-preview-widget-url">https://github.com/</div></a><a class="link-preview-widget-image" href="https://github.com/afifalfiano/learn-git" rel="noopener" style="background-image: url('https://opengraph.githubassets.com/d3ba7ae1354c210e30850b0d89f39012ec58b01b1f09b5a9f4ff79be45d45950/afifalfiano/learn-git');" target="_blank"></a></div></p>
+<p><div class="link-preview-widget"><a href="https://github.com/afifalfiano/learn-git" class="w-full" rel="noopener" target="_blank"><div class="link-preview-widget-title">afifalfiano/learn-git: Learning How to implements git on github.</div><div class="link-preview-widget-description">Learning How to implements git on github. Contribute to afifalfiano/learn-git development by creating an account on GitHub.</div><div class="link-preview-widget-url">https://github.com/</div></a><a class="link-preview-widget-image" href="https://github.com/afifalfiano/learn-git" rel="noopener" style="background-image: url('https://opengraph.githubassets.com/d3ba7ae1354c210e30850b0d89f39012ec58b01b1f09b5a9f4ff79be45d45950/afifalfiano/learn-git');" target="_blank"></a></div></p>
 
 
 Kritik dan saran bisa langsung disampaikan lewat email afifalfiano2@gmail.com atau komen di sini ya. Terimkasih 😁
@@ -183,7 +183,7 @@ Kritik dan saran bisa langsung disampaikan lewat email afifalfiano2@gmail.com at
 ### Referensi
 
 
-<p><div class="link-preview-widget"><a href="https://git-scm.com/" rel="noopener" target="_blank"><div class="link-preview-widget-title">GIT </div><div class="link-preview-widget-description">Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</div><div class="link-preview-widget-url">https://git-scm.com/</div></a><a class="link-preview-widget-image" href="https://git-scm.com/" rel="noopener" style="background-image: url('https://git-scm.com/branching-illustration@2x.png');" target="_blank"></a></div></p>
+<p><div class="link-preview-widget"><a href="https://git-scm.com/" class="w-full" rel="noopener" target="_blank"><div class="link-preview-widget-title">GIT </div><div class="link-preview-widget-description">Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</div><div class="link-preview-widget-url">https://git-scm.com/</div></a><a class="link-preview-widget-image" href="https://git-scm.com/" rel="noopener" style="background-image: url('https://git-scm.com/branching-illustration@2x.png');" target="_blank"></a></div></p>
 
 
 #Git #Github

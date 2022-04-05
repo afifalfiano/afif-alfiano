@@ -245,7 +245,7 @@ Yap, the result of the test from GitHub action. So the integration is successful
 
 This is my project on GitHub :
 
-<p><div class="link-preview-widget"><a href="https://github.com/afifalfiano/angular-cypress" rel="noopener" target="_blank"><div class="link-preview-widget-title">afifalfiano/angular-cypress</div><div class="link-preview-widget-description">Contribute to afifalfiano/angular-cypress development by creating an account on GitHub.</div><div class="link-preview-widget-url">https://github.com/</div></a><a class="link-preview-widget-image" href="https://github.com/afifalfiano/angular-cypress" rel="noopener" style="background-image: url('https://opengraph.githubassets.com/e9862433a8a0f37dd7eda0c56cedb887f2c900fa4ad8bfd556179391162d56a2/afifalfiano/angular-cypress');" target="_blank"></a></div></p>
+<p><div class="link-preview-widget"><a class="w-full" href="https://github.com/afifalfiano/angular-cypress" rel="noopener" target="_blank"><div class="link-preview-widget-title">afifalfiano/angular-cypress</div><div class="link-preview-widget-description">Contribute to afifalfiano/angular-cypress development by creating an account on GitHub.</div><div class="link-preview-widget-url">https://github.com/</div></a><a class="link-preview-widget-image" href="https://github.com/afifalfiano/angular-cypress" rel="noopener" style="background-image: url('https://opengraph.githubassets.com/e9862433a8a0f37dd7eda0c56cedb887f2c900fa4ad8bfd556179391162d56a2/afifalfiano/angular-cypress');" target="_blank"></a></div></p>
 
 
 I think that is enough for me and hopefully useful for all of you guys. Thank you.

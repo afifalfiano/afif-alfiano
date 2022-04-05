@@ -161,7 +161,7 @@ Untuk memastikan apakah ini menggunakan bazel, teman-teman bisa klik kanan dan v
 Berikut ini source code lengkapnya untuk latihan panjang untuk deploy angular dan bazel ke azure menggunakan perantara github actions.
 
 
-<p><div class="link-preview-widget"><a href="https://github.com/afifalfiano/ngBazel" rel="noopener" target="_blank"><div class="link-preview-widget-title">afifalfiano/ngBazel</div><div class="link-preview-widget-description">Contribute to afifalfiano/ngBazel development by creating an account on GitHub.</div><div class="link-preview-widget-url">https://github.com/</div></a><a class="link-preview-widget-image" href="https://github.com/afifalfiano/ngBazel" rel="noopener" style="background-image: url('https://opengraph.githubassets.com/afe82f0432403159303a82c55e85dd56d6236b49d411fe377d0237149fe92c6e/afifalfiano/ngBazel');" target="_blank"></a></div></p>
+<p><div class="link-preview-widget"><a class="w-full" href="https://github.com/afifalfiano/ngBazel" rel="noopener" target="_blank"><div class="link-preview-widget-title">afifalfiano/ngBazel</div><div class="link-preview-widget-description">Contribute to afifalfiano/ngBazel development by creating an account on GitHub.</div><div class="link-preview-widget-url">https://github.com/</div></a><a class="link-preview-widget-image" href="https://github.com/afifalfiano/ngBazel" rel="noopener" style="background-image: url('https://opengraph.githubassets.com/afe82f0432403159303a82c55e85dd56d6236b49d411fe377d0237149fe92c6e/afifalfiano/ngBazel');" target="_blank"></a></div></p>
 
 
 Oke, mungkin itu saya yang dapat saya bagikan tentang angular, bazel, azure dan github actions. Semoga bermanfaat dan tetap semangat ya! 😁
